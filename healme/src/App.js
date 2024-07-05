@@ -1,16 +1,17 @@
+import React from 'react';
 import './App.css';
 // import Navbar from './Navbar';
+import TimerComponent from './TimerComponent';
 
-// function App() {
-//   return (
-//     <>
-//       <Navbar />
-//       <section></section>
-//     </>
-//   );
-// }
+function App() {
+  return (
+    <>
+      {/* <Navbar /> */}
+      <div className="content">
+        <TimerComponent />
+      </div>
+    </>
+  );
+}
 
-// export default App;
-import React, {Component} from "react";
-
-
+export default App;
